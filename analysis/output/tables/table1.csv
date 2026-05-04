@@ -1,0 +1,5 @@
+Series 1,Series 2,Correlation,Sig.
+CAPM $\hat{\beta}_i$,$\beta_i$,0.2725,ns
+$F_t$,VN-Index,0.9477,***
+$F_t$,PC1,0.9807,***
+PC1,VN-Index,0.9407,***

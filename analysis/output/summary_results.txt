@@ -1,0 +1,24 @@
+=== DYNAMIC FACTOR ANALYSIS — VN30/HOSE ===
+
+Sample period : 2015-02-28 to 2023-06-30
+Stocks (S)    : 29
+Observations  : 101 monthly
+
+--- DFM n=1 (factor_lag=0, factor_order=3, error_order=0) ---
+Corr(Ft, VN-Index)   : 0.9477  ***
+Corr(Ft, PC1)        : 0.9807  ***
+Corr(beta_i, CAPM)   : 0.2725  ns
+
+--- DFM n=2 (factor_lag=0, factor_order=2, error_order=0) ---
+Corr(F1t, VN-Index)  : 0.4292
+Corr(F2t, VN-Index)  : 0.0201
+Corr(beta1i, CAPM)   : 0.3784
+Corr(beta2i, CAPM)   : -0.8082
+
+--- GDP Nowcasting ---
+AR(1) RMSE in-sample : 1.2310
+AR(1) RMSE out-sample: 5.5764
+AR(1)+Ft RMSE in     : 1.1941
+AR(1)+Ft RMSE out    : 5.5379
+Improvement in       : 2.99%
+Improvement out      : 0.69%
