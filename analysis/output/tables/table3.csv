@@ -1,9 +1,0 @@
-Series 1,Series 2,Correlation,Sig.,Factor
-CAPM $\hat{\beta}_i$,$\beta_{1i}$,0.3784,**,F1
-$F_{1t}$,VN-Index,0.4292,***,F1
-$F_{1t}$,PC1,0.2972,***,F1
-PC1,VN-Index,0.9407,***,F1
-CAPM $\hat{\beta}_i$,$\beta_{2i}$,-0.8082,***,F2
-$F_{2t}$,VN-Index,0.0201,ns,F2
-$F_{2t}$,PC2,0.9580,***,F2
-PC2,VN-Index,0.1688,*,F2
